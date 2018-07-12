@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100%;
+    background: #181818;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navBar::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1{
+    font-size: 48px;
+    color: #ffffff;
+}
+
+p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+nav{
+    height: 70px;
+    line-height: 70px;
+}
+
+nav a img{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+nav a:nth-child(2){
+    float: right;
+}
+
+header{
+    margin: 100px 0 200px 120px;
+}
+
+header p{
+    width: 60%;
+    margin-top: 10px;
+}
+
+.work{
+    text-align: center;
+    width: 100%;
+}
+
+.work img{
+    margin: 1%;
+    width: 45%;
+}
+
+.header2{
+    margin: 130px 0 80px 40px;
+}
+
+header2 p{
+    margin-top: 10px;
+}
+
+.work2{
+    width: 100%;
+    text-align: center;   
+}
+
+.work2 img{
+    margin: 1%;
+    width: 94%;
+}
+
+footer p{
+    text-align: center;
+    color: #7C7C7C;
+    margin: 60px auto;
+}
+
+@media only screen and (max-width: 990px) {
+    header{
+        text-align: left;
+        margin: 100px 0 100px 30px;
+    }
+    header h1{
+        font-size: 36px;
+    }
+
+    header p{
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .work img{
+        margin: 2%;
+        width: 90%;
+    }
+
+    .header2 {
+        margin: 130px 0 40px 12px;
+    }
+
+    .header2 h1{
+        font-size: 36px;
+    }
+
+    .header2 p{
+        font-size: 12px;
+        width: 85%;
+        margin-top: 10px;
+    }
+
+    .work2 img{
+        margin: 2%;
+    }
+}
+
